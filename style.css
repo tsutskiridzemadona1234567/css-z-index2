@@ -1,0 +1,35 @@
+.parent{
+  width: 1280px;
+  height: 832px;
+  background-color: #000000;
+  position:absolute;
+}
+.img1{
+  z-index: 1;
+  left: 0;
+  position:absolute;
+}
+.img2{
+  z-index: 3;
+  left: 371px;
+  position:absolute;
+} 
+.img3{
+  z-index: 2;
+  left: 859px;
+  position:absolute;
+}
+.p{
+  width: 538px;
+  height: 59px;
+  top: 195px;
+  left: 391px;
+  font-family: "chemi fonti";
+  color: #FFFFFF;
+  z-index: 4;
+  position:absolute;
+}
+@font-face {
+  font-family: "chemi fonti";
+  src: url("./Inter-Regular.ttf");
+}
